@@ -1,0 +1,20 @@
+
+Connection Path:
+1. Copy "QUIZ" folder from this directory.
+2. Go to "Local drive C".
+3. Go to "Users" folder.
+4. Go to "User" (Your Account) folder.
+5. Go to ".netbeans-derby" folder 
+***If there is no such folder, open NetBeans and start "Databases" in "services". Then check again.
+6. Then paste "Quiz" folder in that directory.
+
+
+Database Login:
+id: quiz
+pass: 123
+
+
+Database Connection:
+1. Start "Java DB".
+1. Connect to "QUIZ" in JDBC.
+2. Make "QUIZ" default schemas from "jdbc:derby://localhost:1527/QUIZ [quiz on QUIZ]".
